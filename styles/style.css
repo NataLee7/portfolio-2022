@@ -542,7 +542,9 @@ p {
   text-align: center;
 }
 
-
+.holding-page-image {
+  margin-bottom: 2rem;
+}
 
 .holding-page-title {
   font-family: Montserrat;
