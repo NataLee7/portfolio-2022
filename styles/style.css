@@ -11,9 +11,6 @@ Add the Google Fonts you want, remove the ones you don't.
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Hepta+Slab|Staatliches&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 
 /*
@@ -536,10 +533,7 @@ p {
   place-items: center;
   width: 100%;
   min-height: 100vh;
-  background:
-    linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(18, 8, 80, 0.62)),
-    url(/assets/temp/noise.svg);
-  /* https://grainy-gradients.vercel.app/ */
+  background: white;
 }
 
 
@@ -555,7 +549,7 @@ p {
 
 .holding-page-title {
   font-size: 2rem;
-  color: var(--accent-color);
+  color: black;
 }
 
 .holding-page-copyright {
