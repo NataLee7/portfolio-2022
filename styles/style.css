@@ -10,8 +10,7 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab|Staatliches&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
 
 /*
 
@@ -543,11 +542,10 @@ p {
   text-align: center;
 }
 
-.holding-page-animation {
-  margin-bottom: 1rem;
-}
+
 
 .holding-page-title {
+  font-family: Montserrat;
   font-size: 2rem;
   color: black;
 }
