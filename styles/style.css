@@ -70,8 +70,8 @@ html {
   --primary-text-color: #222;
   --accent-color: #5200FF;
   --overlay-color: #5200FF;
-  --hyperlink-color: rgb(255, 69, 0);
-  --hyperlink-alternate-color: orangered;
+  --hyperlink-color: rgb(11, 149, 255);
+  --hyperlink-alternate-color: rgb(158, 2, 2);
   --hover-color: #111;
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: 'Eczar', serif;
@@ -453,14 +453,14 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: var(--alt-background-color);
+  background: white;
 }
 
 /* Sidebar */
 .project-aside {
   width: 100%;
-  color: white;
-  background: orangered;
+  color: black;
+  background: white;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -498,6 +498,7 @@ p {
   width: 100%;
   font-size: 3.25rem;
   padding: 3rem;
+  color: black;
 }
 
 
@@ -506,10 +507,7 @@ p {
 
 .project-details {
   width: 100%;
-  background-image: linear-gradient(-225deg,
-      #ff057c 0%,
-      #8d0b93 50%,
-      #321575 100%);
+  background-image: white;
   padding: 1rem;
 }
 
