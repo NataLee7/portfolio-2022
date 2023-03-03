@@ -134,7 +134,7 @@ h1 {
 .project-title {
   font-size: 3rem;
   font-family: Montserrat;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: var(--baby-powder);
 }
 
@@ -345,7 +345,7 @@ p {
   align-items: center;
   flex-direction: column;
   padding: 1em;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   transition: opacity .3s, visibility .3s;
 }
 
@@ -505,7 +505,7 @@ p {
 
 .project-details {
   width: 100%;
-  background-image: white;
+  background-color: rgb(22,20,58);
   padding: 1rem;
 }
 
@@ -790,7 +790,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
     height: 65vh;
     position: -webkit-sticky;
     position: sticky;
-    top: 5vh;
+    top: 12vh;
     padding-right: 2rem;
   }
 
