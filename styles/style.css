@@ -546,15 +546,23 @@ p {
   font-family: Montserrat;
   max-width: 20rem;
   font-size: 2rem;
+  font-weight: 300;
   color: black;
 }
 
 .holding-page-copyright {
   font-size: .8rem;
-  color: var(--off-white);
+  color: var(--accent-color);
 }
 
-
+.holding-page-animation {
+  width: 20rem;
+}
+svg {
+  max-width: 80%;
+  height: auto;
+}
+.cls-2:hover {fill: var(--accent-color);}
 
 /*
 ███████ ██████  ██████   ██████  ██████  
@@ -725,7 +733,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   .global-footer {
     padding: 4rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .about-item-1 {
@@ -740,22 +748,22 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   .about-item-2 {
     grid-row: 1 / 2;
-    grid-column: 2 / 3;
+    grid-column: 4 / 5;
   }
 
   .footer-item-2 {
     grid-row: 1 / 2;
-    grid-column: 2 / 3;
+    grid-column: 4/ 5;
   }
 
   .about-item-3 {
     grid-row: 1 / 2;
-    grid-column: 3 / 4;
+    grid-column: 5 / 6;
   }
 
   .footer-item-3 {
     grid-row: 1 / 2;
-    grid-column: 3 / 4;
+    grid-column: 5 / 6;
   }
 
   .about-item-4 {
@@ -775,7 +783,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   /* Padding around work grid and project page */
   .portfolio,
   .project-wrapper {
-    padding: 0.5rem;
+    padding: 0rem;
   }
 
   /* Project Page Flex Direction on Large Devices */
