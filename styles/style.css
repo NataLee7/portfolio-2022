@@ -80,7 +80,7 @@ html {
   --heart-color: darkred;
   --off-white: #f8f8ff;
   --floral-white: #fffaf0;
-  --background-color: #f5f5f5;
+  --background-color: #ffffff;
   --alt-background-color: black;
   --text-selection-background-color: #555;
 }
@@ -162,7 +162,7 @@ h4 {
 
 p {
   font-family: figtree;
-  line-height: 1.5rem;
+  line-height: 1.4rem;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
@@ -289,7 +289,6 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
 
 .projects {
   background: #111;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
