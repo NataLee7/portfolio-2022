@@ -486,8 +486,7 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
 
 .project-image {
   width: 100%;
-  font-size: 12rem;
-  min-height: 50vh;
+  font-size: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
